@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Css -->
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial;
+      }
+
+      .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+      }
+      #btn1 {
+        background-color: brown;
+        color: white;
+        margin: 1.5rem;
+        width: 125px;
+        height: 40px;
+        font-size: 25px;
+        border: none;
+      }
+      #btn2 {
+        background-color: blue;
+        color: white;
+        margin: 1.5rem;
+        width: 125px;
+        height: 40px;
+        font-size: 25px;
+        border: none;
+      }
+      #btn3 {
+        background-color: rgb(165, 165, 4);
+        color: white;
+        margin: 1.5rem;
+        width: 125px;
+        height: 40px;
+        font-size: 25px;
+        border: none;
+      }
+
+      #First {
+        background-color: brown;
+      }
+      #Second {
+        background-color: blue;
+      }
+      #Third {
+        background-color: rgb(165, 165, 4);
+      }
+
+      .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tab">
+      <button class="tablinks" id="btn1" onclick="clickMe(event, 'First')">
+        Click me
+      </button>
+      <button class="tablinks" id="btn2" onclick="clickMe(event, 'Second')">
+        Click me
+      </button>
+      <button class="tablinks" id="btn3" onclick="clickMe(event, 'Third')">
+        Click me
+      </button>
+    </div>
+
+    <div id="First" class="tabcontent">
+      <h1>This is First Page</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius molestiae
+        quidem dignissimos dolorum ipsa? Officiis accusantium nobis aliquam
+        repellat, eveniet quisquam? Deserunt eos eaque animi assumenda? Sit,
+        optio veniam illum vitae eveniet deserunt odio nobis laborum ipsam eos
+        vel incidunt natus aliquam. Voluptas veritatis perferendis incidunt
+        dolorem laborum quasi saepe aliquam eligendi maiores numquam, architecto
+        quaerat hic. Quia sed numquam quod commodi aut? Aliquid, eius
+        debitis.<br />
+        Architecto numquam earum sequi at, modi libero placeat mollitia quas,
+        veritatis nesciunt facilis odio corporis deleniti iure eos tempore
+        provident error aliquid voluptatum cum commodi illo, distinctio
+        delectus! Corporis eum facere delectus modi? Excepturi quod facere
+        quidem repudiandae maiores doloribus beatae voluptate optio, nobis
+        voluptas est vero cum, magni delectus accusantium aut. Sequi vitae
+        officiis cum expedita inventore repellendus praesentium magnam odio
+        aliquid debitis tempora architecto velit, optio eos illo explicabo
+        quibusdam nihil. Eius inventore modi possimus, at sequi repellendus
+        veritatis unde minima facilis!
+      </p>
+    </div>
+
+    <div id="Second" class="tabcontent">
+      <h1>This is 2nd Page</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, nemo
+        deserunt, molestias dolores dolor, quaerat tempora nisi magni excepturi
+        culpa sit minima vitae cumque. Impedit nesciunt ullam, fugiat molestiae
+        ab, deserunt dolorum esse aliquid voluptas mollitia voluptatibus
+        explicabo quibusdam ex iure rerum! Quis iure veritatis officiis quos?
+        Animi fugit iusto cumque itaque dolorem. Hic pariatur aperiam quisquam
+        porro, laboriosam distinctio. <br />Ipsam omnis sint eos corporis
+        dignissimos ipsum qui voluptates sapiente impedit? Sint repudiandae nisi
+        eos, perspiciatis quibusdam praesentium fugit nobis illum exercitationem
+        laborum consectetur, sapiente ea voluptas! Earum ipsum veritatis, quis
+        iusto reiciendis esse officia error enim! Cumque in, veniam modi dicta
+        deserunt dignissimos. Deserunt sequi incidunt id, voluptatem iste
+        doloribus sapiente aperiam, nisi debitis repellendus pariatur maiores
+        amet nemo cupiditate ullam fugiat unde ex quam? Ex blanditiis cupiditate
+        eos optio non officiis laudantium illum debitis totam incidunt nobis
+        quidem deserunt a reprehenderit, esse perspiciatis voluptatem alias,
+        impedit amet repellat!
+      </p>
+    </div>
+
+    <div id="Third" class="tabcontent">
+      <h1>This is 3rd Page</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
+        consectetur esse veniam tempore, unde assumenda, rerum voluptatem saepe
+        illo quidem deleniti autem dolor, voluptatibus necessitatibus error
+        accusantium totam ab! Sequi nobis debitis saepe veniam fuga illo vitae
+        cupiditate. Consequuntur sunt distinctio quasi minima labore! Modi,
+        explicabo? Deleniti aliquid et error culpa illum temporibus soluta
+        similique architecto distinctio maiores obcaecati animi accusantium
+        delectus iste expedita sunt atque ipsam quis, neque quia? Amet vel, unde
+        molestias temporibus laudantium beatae debitis dicta vero molestiae quae
+        sed. <br />
+        Modi, id rem iste ipsum saepe delectus voluptatibus facilis autem natus
+        pariatur, maxime libero non quam totam est quidem omnis alias sapiente,
+        fugit earum blanditiis. Enim, magnam dicta aperiam, nisi vel placeat
+        soluta minima eius, libero labore distinctio. Consectetur ipsum iusto
+        vel, sapiente excepturi doloribus itaque culpa magni eaque temporibus
+        aliquid placeat, facere impedit cumque reiciendis. Excepturi blanditiis
+        perferendis aliquam et maiores, dolor quas libero cumque alias.
+      </p>
+    </div>
+
+    <script>
+      function clickMe(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+    </script>
+  </body>
+</html>
